@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-awesome/components": "^1.0.24",
     "@tailwindcss/vite": "^4.0.13",
     "localforage": "^1.10.0",
     "match-sorter": "^8.0.0",

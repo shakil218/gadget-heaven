@@ -2,7 +2,7 @@
   {
       "product_id": 1,
       "product_title": "MacBook Pro 16-inch",
-      "product_image": "https://example.com/macbook-pro-16.jpg",
+      "product_image": "https://i.ibb.co.com/TMsySjrb/Mac-Book-Pro-16-inch.jpg",
       "category": "macbook",
       "price": 2399.99,
       "description": "The MacBook Pro 16-inch features a stunning Retina display, powerful performance, and all-day battery life.",
@@ -23,7 +23,7 @@
   {
       "product_id": 2,
       "product_title": "iPhone 15 Pro",
-      "product_image": "https://example.com/iphone-15-pro.jpg",
+      "product_image": "https://i.ibb.co.com/DDxz7LxT/i-Phone-15-Pro.jpg",
       "category": "iphone",
       "price": 999.99,
       "description": "The iPhone 15 Pro features a titanium design, A17 Pro chip, and a powerful camera system.",
@@ -44,7 +44,7 @@
   {
       "product_id": 3,
       "product_title": "Samsung Galaxy S23 Ultra",
-      "product_image": "https://example.com/galaxy-s23-ultra.jpg",
+      "product_image": "https://i.ibb.co.com/wFXrc0bn/Samsung-Galaxy-S23-Ultra.jpg",
       "category": "Phones",
       "price": 1199.99,
       "description": "The Samsung Galaxy S23 Ultra features a 200MP camera, Snapdragon 8 Gen 2, and a massive battery.",
@@ -65,7 +65,7 @@
   {
       "product_id": 4,
       "product_title": "Apple Watch Series 9",
-      "product_image": "https://example.com/apple-watch-series-9.jpg",
+      "product_image": "https://i.ibb.co.com/KxfSpTzq/Apple-Watch-Series-9.jpg",
       "category": "smart watches",
       "price": 399.99,
       "description": "The Apple Watch Series 9 features advanced health monitoring, a brighter display, and faster performance.",
@@ -86,7 +86,7 @@
   {
       "product_id": 5,
       "product_title": "Dell XPS 13",
-      "product_image": "https://example.com/dell-xps-13.jpg",
+      "product_image": "https://i.ibb.co.com/hR0RNhxg/Dell-XPS-13.jpg",
       "category": "Laptops",
       "price": 1299.99,
       "description": "The Dell XPS 13 is a compact and powerful laptop with a stunning InfinityEdge display.",
@@ -107,7 +107,7 @@
   {
       "product_id": 6,
       "product_title": "AirPods Pro (2nd Gen)",
-      "product_image": "https://example.com/airpods-pro-2.jpg",
+      "product_image": "https://i.ibb.co.com/xqnh5gLH/Air-Pods-Pro-2nd-Gen.jpg",
       "category": "accessories",
       "price": 249.99,
       "description": "The AirPods Pro (2nd Gen) feature active noise cancellation, spatial audio, and a customizable fit.",
@@ -128,7 +128,7 @@
   {
       "product_id": 7,
       "product_title": "Samsung Galaxy Watch 6",
-      "product_image": "https://example.com/galaxy-watch-6.jpg",
+      "product_image": "https://i.ibb.co.com/F4667bzt/Samsung-Galaxy-Watch-6.jpg",
       "category": "smart watches",
       "price": 299.99,
       "description": "The Samsung Galaxy Watch 6 offers advanced health tracking, a sleek design, and long battery life.",
@@ -149,7 +149,7 @@
   {
       "product_id": 8,
       "product_title": "Logitech MX Master 3S",
-      "product_image": "https://example.com/mx-master-3s.jpg",
+      "product_image": "https://i.ibb.co.com/qLStMYnz/Logitech-MX-Master-3-S.jpg",
       "category": "accessories",
       "price": 99.99,
       "description": "The Logitech MX Master 3S is a premium wireless mouse designed for productivity and comfort.",
@@ -170,7 +170,7 @@
   {
       "product_id": 9,
       "product_title": "Google Pixel 8 Pro",
-      "product_image": "https://example.com/pixel-8-pro.jpg",
+      "product_image": "https://i.ibb.co.com/XkFRSM84/Google-Pixel-8-Pro.jpg",
       "category": "Phones",
       "price": 899.99,
       "description": "The Google Pixel 8 Pro features a powerful camera, Tensor G3 chip, and a smooth 120Hz display.",
@@ -191,7 +191,7 @@
   {
       "product_id": 10,
       "product_title": "HP Spectre x360",
-      "product_image": "https://example.com/hp-spectre-x360.jpg",
+      "product_image": "https://i.ibb.co.com/93bdyFtT/HP-Spectre-x360.jpg",
       "category": "Laptops",
       "price": 1499.99,
       "description": "The HP Spectre x360 is a versatile 2-in-1 laptop with a stunning OLED display and powerful performance.",
@@ -212,7 +212,7 @@
   {
       "product_id": 11,
       "product_title": "OnePlus 11",
-      "product_image": "https://example.com/oneplus-11.jpg",
+      "product_image": "https://i.ibb.co.com/LHBhpq8/One-Plus-11.jpg",
       "category": "Phones",
       "price": 699.99,
       "description": "The OnePlus 11 offers flagship performance, a Hasselblad camera, and a sleek design.",
@@ -233,7 +233,7 @@
   {
       "product_id": 12,
       "product_title": "Sony WH-1000XM5",
-      "product_image": "https://example.com/sony-wh-1000xm5.jpg",
+      "product_image": "https://i.ibb.co.com/HpdsmsyS/Sony-WH-1000-XM5.jpg",
       "category": "accessories",
       "price": 349.99,
       "description": "The Sony WH-1000XM5 offers industry-leading noise cancellation and exceptional sound quality.",
@@ -254,7 +254,7 @@
   {
       "product_id": 13,
       "product_title": "iPad Pro 12.9-inch",
-      "product_image": "https://example.com/ipad-pro-12-9.jpg",
+      "product_image": "https://i.ibb.co.com/fYYgFRKc/i-Pad-Pro-12-9-inch.jpg",
       "category": "accessories",
       "price": 1099.99,
       "description": "The iPad Pro 12.9-inch features a Liquid Retina XDR display, M2 chip, and support for Apple Pencil.",
@@ -275,7 +275,7 @@
   {
       "product_id": 14,
       "product_title": "Microsoft Surface Laptop 5",
-      "product_image": "https://example.com/surface-laptop-5.jpg",
+      "product_image": "https://i.ibb.co.com/DHrjrXQ6/Microsoft-Surface-Laptop-5.jpg",
       "category": "Laptops",
       "price": 1299.99,
       "description": "The Microsoft Surface Laptop 5 offers a sleek design, powerful performance, and a vibrant touchscreen.",
@@ -296,7 +296,7 @@
   {
       "product_id": 15,
       "product_title": "Fitbit Charge 6",
-      "product_image": "https://example.com/fitbit-charge-6.jpg",
+      "product_image": "https://i.ibb.co.com/xK7B16Mr/Fitbit-Charge-6.jpg",
       "category": "smart watches",
       "price": 179.99,
       "description": "The Fitbit Charge 6 offers advanced fitness tracking, heart rate monitoring, and a long-lasting battery.",
@@ -317,7 +317,7 @@
   {
       "product_id": 16,
       "product_title": "Razer Blade 15",
-      "product_image": "https://example.com/razer-blade-15.jpg",
+      "product_image": "https://i.ibb.co.com/0j6CRJKL/Razer-Blade-15.jpg",
       "category": "Laptops",
       "price": 1999.99,
       "description": "The Razer Blade 15 is a gaming laptop with a high-refresh-rate display and powerful GPU.",
@@ -338,7 +338,7 @@
   {
       "product_id": 17,
       "product_title": "Bose QuietComfort 45",
-      "product_image": "https://example.com/bose-qc45.jpg",
+      "product_image": "https://i.ibb.co.com/wNKgKVN9/Bose-Quiet-Comfort-45.jpg",
       "category": "accessories",
       "price": 329.99,
       "description": "The Bose QuietComfort 45 offers world-class noise cancellation and premium sound quality.",
@@ -359,7 +359,7 @@
   {
       "product_id": 18,
       "product_title": "Asus ROG Zephyrus G14",
-      "product_image": "https://example.com/rog-zephyrus-g14.jpg",
+      "product_image": "https://i.ibb.co.com/yn5xz8Bf/Asus-ROG-Zephyrus-G14.jpg",
       "category": "Laptops",
       "price": 1499.99,
       "description": "The Asus ROG Zephyrus G14 is a compact gaming laptop with a powerful AMD Ryzen processor.",
@@ -380,7 +380,7 @@
   {
       "product_id": 19,
       "product_title": "Garmin Forerunner 955",
-      "product_image": "https://example.com/garmin-forerunner-955.jpg",
+      "product_image": "https://i.ibb.co.com/ynMz8SnY/Garmin-Forerunner-955.jpg",
       "category": "smart watches",
       "price": 499.99,
       "description": "The Garmin Forerunner 955 is a premium GPS smartwatch designed for athletes and fitness enthusiasts.",
@@ -401,7 +401,7 @@
   {
       "product_id": 20,
       "product_title": "Canon EOS R5",
-      "product_image": "https://example.com/canon-eos-r5.jpg",
+      "product_image": "https://i.ibb.co.com/2Qfz681/Canon-EOS-R5.jpg",
       "category": "accessories",
       "price": 3899.99,
       "description": "The Canon EOS R5 is a mirrorless camera with 8K video recording and advanced autofocus.",
