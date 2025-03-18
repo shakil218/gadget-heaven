@@ -23,7 +23,7 @@
   {
       "product_id": 2,
       "product_title": "iPhone 15 Pro",
-      "product_image": "https://i.ibb.co.com/DDxz7LxT/i-Phone-15-Pro.jpg",
+      "product_image": "https://i.ibb.co.com/FLqbfdk7/images-5.jpg",
       "category": "iphone",
       "price": 999.99,
       "description": "The iPhone 15 Pro features a titanium design, A17 Pro chip, and a powerful camera system.",
@@ -34,7 +34,7 @@
           "128GB Storage",
           "5G Connectivity"
       ],
-      "availability": true,
+      "availability": false,
       "rating": 4.9,
       "Otherfield": {
           "brand": "Apple",
@@ -76,7 +76,7 @@
           "ECG App",
           "GPS + Cellular"
       ],
-      "availability": true,
+      "availability": false,
       "rating": 4.8,
       "Otherfield": {
           "brand": "Apple",
@@ -118,7 +118,7 @@
           "MagSafe Charging Case",
           "Up to 6 Hours Battery Life"
       ],
-      "availability": true,
+      "availability": false,
       "rating": 4.7,
       "Otherfield": {
           "brand": "Apple",
@@ -170,7 +170,7 @@
   {
       "product_id": 9,
       "product_title": "Google Pixel 8 Pro",
-      "product_image": "https://i.ibb.co.com/XkFRSM84/Google-Pixel-8-Pro.jpg",
+      "product_image": "https://i.ibb.co.com/FbCZ3jHY/images-4.jpg",
       "category": "Phones",
       "price": 899.99,
       "description": "The Google Pixel 8 Pro features a powerful camera, Tensor G3 chip, and a smooth 120Hz display.",
@@ -212,7 +212,7 @@
   {
       "product_id": 11,
       "product_title": "OnePlus 11",
-      "product_image": "https://i.ibb.co.com/LHBhpq8/One-Plus-11.jpg",
+      "product_image": "https://i.ibb.co.com/chHSJpN4/images-3.jpg",
       "category": "Phones",
       "price": 699.99,
       "description": "The OnePlus 11 offers flagship performance, a Hasselblad camera, and a sleek design.",
@@ -233,7 +233,7 @@
   {
       "product_id": 12,
       "product_title": "Sony WH-1000XM5",
-      "product_image": "https://i.ibb.co.com/HpdsmsyS/Sony-WH-1000-XM5.jpg",
+      "product_image": "https://i.ibb.co.com/8nxfMScj/images-2.jpg",
       "category": "accessories",
       "price": 349.99,
       "description": "The Sony WH-1000XM5 offers industry-leading noise cancellation and exceptional sound quality.",
@@ -296,7 +296,7 @@
   {
       "product_id": 15,
       "product_title": "Fitbit Charge 6",
-      "product_image": "https://i.ibb.co.com/xK7B16Mr/Fitbit-Charge-6.jpg",
+      "product_image": "https://i.ibb.co.com/r2Q2X0JX/images-1.jpg",
       "category": "smart watches",
       "price": 179.99,
       "description": "The Fitbit Charge 6 offers advanced fitness tracking, heart rate monitoring, and a long-lasting battery.",
@@ -338,7 +338,7 @@
   {
       "product_id": 17,
       "product_title": "Bose QuietComfort 45",
-      "product_image": "https://i.ibb.co.com/wNKgKVN9/Bose-Quiet-Comfort-45.jpg",
+      "product_image": "https://i.ibb.co.com/JW4MSn91/download-1.jpg",
       "category": "accessories",
       "price": 329.99,
       "description": "The Bose QuietComfort 45 offers world-class noise cancellation and premium sound quality.",
@@ -380,7 +380,7 @@
   {
       "product_id": 19,
       "product_title": "Garmin Forerunner 955",
-      "product_image": "https://i.ibb.co.com/ynMz8SnY/Garmin-Forerunner-955.jpg",
+      "product_image": "https://i.ibb.co.com/rLHznDp/download.jpg",
       "category": "smart watches",
       "price": 499.99,
       "description": "The Garmin Forerunner 955 is a premium GPS smartwatch designed for athletes and fitness enthusiasts.",
@@ -412,7 +412,7 @@
           "12fps Continuous Shooting",
           "5GHz Wi-Fi"
       ],
-      "availability": true,
+      "availability": false,
       "rating": 4.9,
       "Otherfield": {
           "brand": "Canon",

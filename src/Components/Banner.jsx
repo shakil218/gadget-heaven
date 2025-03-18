@@ -1,11 +1,12 @@
-import React from "react";
 import BannerImg from "../assets/banner.jpg";
-import { Link } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 import Blogs from "../Pages/Blogs";
 
 const Banner = () => {
+  const blogs = useLoaderData();
+
   return (
     <div>
       <section>
@@ -42,9 +43,13 @@ const Banner = () => {
         <h1 className="text-5xl font-bold text-center">
           Explore Cutting-Edge Gadgets
         </h1>
-        <div className="flex my-10">
+        <div className="flex flex-col lg:flex-row my-10 gap-5">
           <Sidebar></Sidebar>
-          <Blogs></Blogs>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
+            {blogs.map((blog) => (
+              <Blogs key={blog.id} blog={blog}></Blogs>
+            ))}
+          </div>
         </div>
       </section>
     </div>

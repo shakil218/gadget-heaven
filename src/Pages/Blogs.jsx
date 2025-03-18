@@ -1,149 +1,31 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Blogs = () => {
+const Blogs = ({ blog }) => {
+  const { product_id, product_title, product_image, price } = blog;
   return (
-    
-      <div className="container px-6 mx-auto space-y-8 w-[calc(11/12-228px)]">
-        <div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
-          <article className="flex flex-col bg-gray-900">
-            <a
-              rel="noopener noreferrer"
-              href="#"
-              aria-label="Te nulla oportere reprimique his dolorum"
-            >
-              <img
-                alt=""
-                className="object-cover w-full h-52 bg-gray-500"
-                src="https://source.unsplash.com/200x200/?fashion?1"
-              />
-            </a>
-            <div className="flex flex-col flex-1 p-6">
-              <a
-                rel="noopener noreferrer"
-                href="#"
-                aria-label="Te nulla oportere reprimique his dolorum"
-              ></a>
-              <a
-                rel="noopener noreferrer"
-                href="#"
-                className="text-xs tracking-wider uppercase hover:underline text-violet-400"
-              >
-                Convenire
-              </a>
-              <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">
-                Te nulla oportere reprimique his dolorum
-              </h3>
-              <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
-                <span>June 1, 2020</span>
-                <span>2.1K views</span>
-              </div>
-            </div>
-          </article>
-          <article className="flex flex-col bg-gray-900">
-            <a
-              rel="noopener noreferrer"
-              href="#"
-              aria-label="Te nulla oportere reprimique his dolorum"
-            >
-              <img
-                alt=""
-                className="object-cover w-full h-52 bg-gray-500"
-                src="https://source.unsplash.com/200x200/?fashion?2"
-              />
-            </a>
-            <div className="flex flex-col flex-1 p-6">
-              <a
-                rel="noopener noreferrer"
-                href="#"
-                aria-label="Te nulla oportere reprimique his dolorum"
-              ></a>
-              <a
-                rel="noopener noreferrer"
-                href="#"
-                className="text-xs tracking-wider uppercase hover:underline text-violet-400"
-              >
-                Convenire
-              </a>
-              <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">
-                Te nulla oportere reprimique his dolorum
-              </h3>
-              <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
-                <span>June 2, 2020</span>
-                <span>2.2K views</span>
-              </div>
-            </div>
-          </article>
-          <article className="flex flex-col bg-gray-900">
-            <a
-              rel="noopener noreferrer"
-              href="#"
-              aria-label="Te nulla oportere reprimique his dolorum"
-            >
-              <img
-                alt=""
-                className="object-cover w-full h-52 bg-gray-500"
-                src="https://source.unsplash.com/200x200/?fashion?3"
-              />
-            </a>
-            <div className="flex flex-col flex-1 p-6">
-              <a
-                rel="noopener noreferrer"
-                href="#"
-                aria-label="Te nulla oportere reprimique his dolorum"
-              ></a>
-              <a
-                rel="noopener noreferrer"
-                href="#"
-                className="text-xs tracking-wider uppercase hover:underline text-violet-400"
-              >
-                Convenire
-              </a>
-              <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">
-                Te nulla oportere reprimique his dolorum
-              </h3>
-              <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
-                <span>June 3, 2020</span>
-                <span>2.3K views</span>
-              </div>
-            </div>
-          </article>
-          <article className="flex flex-col bg-gray-900">
-            <a
-              rel="noopener noreferrer"
-              href="#"
-              aria-label="Te nulla oportere reprimique his dolorum"
-            >
-              <img
-                alt=""
-                className="object-cover w-full h-52 bg-gray-500"
-                src="https://source.unsplash.com/200x200/?fashion?4"
-              />
-            </a>
-            <div className="flex flex-col flex-1 p-6">
-              <a
-                rel="noopener noreferrer"
-                href="#"
-                aria-label="Te nulla oportere reprimique his dolorum"
-              ></a>
-              <a
-                rel="noopener noreferrer"
-                href="#"
-                className="text-xs tracking-wider uppercase hover:underline text-violet-400"
-              >
-                Convenire
-              </a>
-              <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">
-                Te nulla oportere reprimique his dolorum
-              </h3>
-              <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
-                <span>June 4, 2020</span>
-                <span>2.4K views</span>
-              </div>
-            </div>
-          </article>
+    <Link to={`/blogs/${product_id}`}>
+      <article className=" overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg p-5 bg-base-100">
+        <img
+          alt="Product Image"
+          src={product_image}
+          className="h-56 w-full object-cover rounded-lg"
+        />
+
+        <div className="bg-white ">
+          <h3 className=" text-[16px] font-semibold text-gray-900">{product_title}</h3>
+          <p className=" font-medium text-gray-500 my-3">Price: {price}k</p>
+          <a
+            className="group inline-block rounded-full bg-gradient-to-r from-violet-500 via-violet-300 to-violet-100 p-[2px] hover:text-white focus:ring-3 focus:outline-hidden"
+            href="#"
+          >
+            <span className="block rounded-full bg-white px-8 py-3 text-sm font-medium group-hover:bg-transparent">
+              Shop Now
+            </span>
+          </a>
         </div>
-      </div>
-    
+      </article>
+    </Link>
   );
 };
 

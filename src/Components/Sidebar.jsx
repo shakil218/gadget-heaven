@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <div className="h-full p-3 space-y-2 w-60 bg-white text-gray-100 rounded-2xl">
+    <div className="h-full p-3 space-y-2 w-96  bg-white text-gray-100 rounded-lg">
       <ul className="pt-2 pb-4  text-sm text-black flex flex-col gap-3">
         <li className="bg-gray-200 rounded-full btn font-semibold">
           <Link

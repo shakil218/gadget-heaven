@@ -5,7 +5,7 @@ import { FaRegHeart } from "react-icons/fa";
 
 const Navbar = () => {
   const links = (
-    <div className="flex gap-3">
+    <div className="lg:flex gap-3 ">
       <li>
         <NavLink
           to={"/"}
